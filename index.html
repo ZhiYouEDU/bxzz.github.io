@@ -174,12 +174,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <form action="#" method="post" class="cta-form" id="templatemo-subscribe">
+                        <form action="" method="post" class="cta-form" id="templatemo-subscribe">
                             <fieldset class="col-md-offset-3 col-md-4">
                                 <input type="email" id="cta-email" placeholder="Email">
                             </fieldset>
                             <fieldset class="col-md-5">
-                                <input type="submit" id="cta-submit" value="订阅最新动态" class="button outline white">
+                                <input type="button" onclick="display_alert()" id="cta-submit" value="订阅最新动态" class="button outline white">
                             </fieldset>
                         </form>
                     </div>
@@ -238,6 +238,12 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+            function display_alert()
+              {
+              alert("订阅成功")
+              }
+        </script>
 
     </body>
 </html>
